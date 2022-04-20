@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.left{
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    overflow: scroll;
+    /* padding-top: 20px; */
+    left: 0;
+}
+.right{
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    overflow-x: hidden;
+    overflow: scroll;
+    padding: 20px;
+    right: 0;
+    background-color: rgb(213, 227, 234);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    margin-left: 30px;
+}
+.nav-right{
+    margin-right: 30px;
+    display: flex;
+}
+.dp{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
+.dpname{
+    margin-left: 20px;
+    margin-top: -6px;
+}
+.dpname p:first-child{
+    font-size: 22px;
+}
+.dpname p:last-child{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bell{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.inputDiv{
+    background-color: rgb(233, 243, 243);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 13px;
+}
+.inputDiv input{
+    border: 0;
+    background-color: rgb(233, 243, 243);
+    font-size: 18px;
+    margin-left: 10px;
+    outline: none;
+}
+.topContent{
+    margin-left: 20px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+
+}
+.topContent{
+    margin-top: 20px;
+}
+.card1,.card2{
+    height: 380px;
+    border-radius: 19px;
+}
+.card1{
+    background-color: rgb(199, 212, 186);
+}
+.card1 > .typeofData{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.card1 > .typeofData > .dataDp{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.card1 > .typeofData > .dataName{
+    margin-left: 10px;
+}
+.card1 > .typeofData > .dataName p:nth-child(1){
+    font-size: 18px;
+    font-weight: 400;
+}
+.card1 > .typeofData > .dataName p:nth-child(2){
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.card2{
+    background-color: rgb(153, 153, 153);
+}
+.card2 > .typeofData{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.card2 > .typeofData > .dataDp{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.card2 > .typeofData > .dataName{
+    margin-left: 10px;
+    color: #fff;
+}
+.card2 > .typeofData > .dataName p:nth-child(1){
+    font-size: 18px;
+    font-weight: 400;
+}
+.card2 > .typeofData > .dataName p:nth-child(2){
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.temp{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+.temp > .deg p:nth-child(1){
+    font-size: 44px;
+}
+.temp > .deg p:nth-child(2){
+    font-weight: 300;
+    font-size: 15px;
+}
