@@ -20,14 +20,13 @@ body,p{
     left: 0;
 }
 .right{
-    width: 22%;
+    width: 25%;
     height: 100%;
     position: fixed;
     z-index: 1;
     top: 1;
     overflow-x: hidden;
     overflow: scroll;
-    padding: 20px;
     right: 0;
     background-color: rgb(233, 243, 243);
 }
@@ -176,7 +175,7 @@ body,p{
     margin-top: 17px;
 }
 .temp > div:nth-child(2) span{
-    /* margin-top: 10px; */
+    margin-left: 10px;
     background-color: #fff;
     padding: 4px 8px;
     border-radius: 8px;
@@ -221,4 +220,25 @@ body,p{
     margin:20px;
     border-radius: 20px;
     overflow: hidden;
+}
+
+.topRightContent{
+    margin: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid turquoise;
+}
+.topRightContent div:first-child > p:first-child{
+    font-size: 18px;
+}
+.topRightContent div:first-child > p:last-child{
+    font-size: 13px;
+    font-weight: 300;
+    color: darkslategray;
+}
+.topRightContent div:last-child > p{
+    font-size:36px;
+    color: rgb(255, 132, 60);
+    font-weight: 600;
 }
