@@ -219,4 +219,6 @@ body,p{
     background-color: rgb(97, 154, 204);
     height: 500px;
     margin:20px;
+    border-radius: 20px;
+    overflow: hidden;
 }
